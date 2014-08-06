@@ -1,0 +1,56 @@
+
+/*  ==========================================================================
+    Hash Towers: UI SETTINGS
+    --------------------------------------------------------------------------
+    Version: 1.0;
+    ==========================================================================
+*/
+
+    /* Mixin
+    ----------------------------------------------------------------------- */
+
+    //Modelo de bloco padrão
+    @mixin block_default {
+        height: 100%;   width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    //Bloco 50%
+    @mixin block_50 {
+        @extend #POSITION-RELATIVE;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    //FadeIn
+    @mixin fadeIn {
+        -webkit-animation: fadeIn 0.5s ease-in-out;
+        -moz-animation: fadeIn 0.5s ease-in-out;
+        -o-animation: fadeIn 0.5s ease-in-out;
+        animation: fadeIn 0.5s ease-in-out;
+    }
+
+    //FadeInBtn
+    @mixin fadeInBtn {
+        -webkit-animation: fadeInBtn 0.3s ease-in-out;
+        -moz-animation: fadeInBtn 0.3s ease-in-out;
+        -o-animation: fadeInBtn 0.3s ease-in-out;
+        animation: fadeInBtn 0.3s ease-in-out;
+    }
+
+    //fitBtnTop
+    @mixin fitBtnTop {
+        -webkit-animation: fitBtnTop 0.3s ease-in-out;
+        -moz-animation: fitBtnTop 0.3s ease-in-out;
+        -o-animation: fitBtnTop 0.3s ease-in-out;
+        animation: fitBtnTop 0.3s ease-in-out;
+    }
+
+    //Border Radius
+    @mixin border_radius {
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+    }

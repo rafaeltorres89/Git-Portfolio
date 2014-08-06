@@ -1,0 +1,179 @@
+
+/*  ==========================================================================
+    Hash Towers: UI SETTINGS
+    --------------------------------------------------------------------------
+    Version: 1.0;
+    ==========================================================================
+*/
+
+    /* Animations
+    ----------------------------------------------------------------------- */
+
+    /* ============================ 1. Fade
+    ======================================= */
+    //Opacidade FadeIn
+    @-webkit-keyframes fadeIn {
+        0%      { opacity: 0; }
+        100%    { opacity: 1; }
+    }
+
+    @-moz-keyframes fadeIn {
+        0%      { opacity: 0;}
+        100%    { opacity: 1; }
+    }
+
+    @-o-keyframes fadeIn {
+        0%      { opacity: 0; }
+        100%    { opacity: 1; }
+    }
+
+    @keyframes fadeIn {
+        0%      { opacity: 0; }
+        100%    { opacity: 1; }
+    }
+
+    //Opacidade FadeIn Botão
+    @-webkit-keyframes fadeInBtn {
+        0%      { opacity: 0.5; }
+        100%    { opacity: 1; }
+    }
+
+    @-moz-keyframes fadeInBtn {
+        0%      { opacity: 0.5;}
+        100%    { opacity: 1; }
+    }
+
+    @-o-keyframes fadeInBtn {
+        0%      { opacity: 0.5; }
+        100%    { opacity: 1; }
+    }
+
+    @keyframes fadeInBtn {
+        0%      { opacity: 0.5; }
+        100%    { opacity: 1; }
+    }
+
+    /* ========================= 2. Ajustes
+    ======================================= */
+    //Top
+    @-webkit-keyframes fitTop {
+        from    { margin-top: 0; }
+        to      { margin-top: 5%; }
+    }
+
+    @keyframes fitTop {
+        from    { margin-top: 0; }
+        to      { margin-top: 5%; }
+    }
+
+    //Bottom
+    @-webkit-keyframes fitBottom {
+        from    { margin-left: 25%; }
+        to      { margin-left: 0.5%; }
+    }
+
+    @keyframes fitBottom {
+        from    { margin-left: 25%; }
+        to      { margin-left: 0.5%; }
+    }
+
+    //Social Media
+    @-webkit-keyframes fitSM {
+        from    { margin-top: 25%; }
+        to      { margin-top: 4.5%; }
+    }
+
+    @keyframes fitSM {
+        from    { margin-top: 25%; }
+        to      { margin-top: 4.5%; }
+    }
+
+    /* ================== 3. Cores de Fundo
+    ======================================= */
+    //Menu
+    @-webkit-keyframes backCollor {
+        from    { background: #F9F9F9; }
+        to      { background: #F2F0EB; }
+    }
+
+    @keyframes backCollor {
+        from    { background: #F9F9F9; }
+        to      { background: #F2F0EB; }
+    }
+
+    //Menu First
+    @-webkit-keyframes collor-first_child {
+        from    { background: #F5F5F5; }
+        to      { background: #F5F5F5; }
+    }
+
+    @keyframes collor-first_child {
+        from    { background: #F5F5F5; }
+        to      { background: #F5F5F5; }
+    }
+
+    //Font
+    @-webkit-keyframes fitBtnTop {
+        from    { color: #1F272D; }
+        to      { color: #F5F5F5; }
+    }
+
+    @keyframes fitBtnTop {
+        from    { color: #1F272D; }
+        to      { color: #F5F5F5; }
+    }
+
+    //Largura
+    @-webkit-keyframes widthNav {
+        from    { width: 50%; }
+        to      { width: 16.7%; }
+    }
+
+    @keyframes widthNav {
+        from    { width: 50%; }
+        to      { width: 16.7%; }
+    }
+
+    //Largura 80
+    @-webkit-keyframes eightyAnimation {
+        from    { width: 83.3%; }
+        to      { width: 50%; }
+    }
+
+    @keyframes eightyAnimation {
+        from    { width: 83.3%; }
+        to      { width: 50%; }
+    }
+
+    //Largura 16
+    @-webkit-keyframes sixteenAnimation {
+        from    { width: 16.59%; }
+        to      { width: 50%; }
+    }
+
+    @keyframes sixteenAnimation {
+        from    { width: 16.59%; }
+        to      { width: 50%; }
+    }
+
+    //Largura
+    @-webkit-keyframes widthMain {
+        from    { width: 50%; }
+        to      { width: 83.3%; }
+    }
+
+    @keyframes widthMain {
+        from    { width: 50%; }
+        to      { width: 83.3%; }
+    }
+
+    //Largura 1
+    @-webkit-keyframes active_width_main {
+        from    { width: 48%;   background: #1F272D; }
+        to      { width: 83.3%; background: #F9F9F9; }
+    }
+
+    @keyframes active_width_main {
+        from    { width: 48%;   background: #1F272D; }
+        to      { width: 83.3%; background: #F9F9F9; }
+    }

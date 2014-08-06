@@ -1,0 +1,47 @@
+
+/*  ==========================================================================
+    Hash Towers: UI SETTINGS
+    --------------------------------------------------------------------------
+    Version: 1.0;
+    ==========================================================================
+*/
+
+    /* Settings
+    ----------------------------------------------------------------------- */
+
+    //Palette Natural Colors
+    $palette-beige:             #F5F5F5;
+    $palette-clean:             #F9F9F9;
+    $palette-dark:              #1F272D;
+    $palette-gray:              #F0F0F0;
+    $palette-light:             #CBCAC7;
+    $palette-light_beige:       #FDFDFD;
+    $palette-orange:            #E75A41;
+    $palette-pastel:            #F2F0EB;
+    $palette-white:             #FFFFFF;
+
+    //Object Oriented Cascading Style Sheets
+    #FLOAT-LEFT                 { float: left; }
+    #FLOAT-RIGHT                { float: right; }
+
+    #HIDE                       { display: none; }
+    #SHOW                       { display: block; }
+
+    #HIDESTRONG                 { display: none !important; }
+
+    #DEFAULT-CURSOR             { cursor: default; }
+
+    #FONT-BOLD                  { font-weight: bold; }
+    #FONT-ITALIC                { font-style: italic; }
+    #FONT-NORMAL                { font-weight: normal; }
+    #FONT-LIGHTER               { font-weight: lighter; }
+
+    #TEXT-UPPERCASE             { text-transform: uppercase }
+    #TEXT-INDENT                { text-indent: -9999px; }
+
+    #POSITION-ABSOLUTE          { position: absolute; }
+    #POSITION-RELATIVE          { position: relative; }
+    #POSITION-FIXED             { position: fixed; }
+
+    #OVERFLOW-HIDDEN            { overflow: hidden; }
+    #OVERFLOW-AUTO              { overflow: auto; }
